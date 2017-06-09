@@ -1,20 +1,20 @@
 # README #
 
-This README describes a component that creates an interesting menu flow effect
+This README describes a component that creates an interesting menu flow effect.
 
 ### What is this repository for? ###
 
  The component in the container it creates creates menu items, 
  and by means of pseudo-classes organizes the effect of the flow 
- of one element to another during the actions of the user
+ of one element to another during the actions of the user.
 
  [Learn Markdown](http://gordievskiy.com/lab/hover_effect)
 
 ### How to use? ###
 
-1.First, make sure you are using valid DOCTYPE and the jQuery library
+1. First, make sure you are using valid DOCTYPE and the jQuery library.
 
-2. Include necessary component.js file and the jQuery library
+2. Include necessary js files.
     
 ```
 #!html
@@ -22,9 +22,7 @@ This README describes a component that creates an interesting menu flow effect
 <script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script defer type="text/javascript" src="js/hover-effect.js"></script>
 ```
-
-
-    We should wait for the readiness of the DOM tree, so we recommend using the 'defer' attribute for the <script> tag
+We should wait for the readiness of the DOM tree, so we recommend using the 'defer' attribute for the <script> tag.
 
 3. Add CSS file
     
