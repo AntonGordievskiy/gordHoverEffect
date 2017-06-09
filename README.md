@@ -19,7 +19,6 @@ This README describes a component that creates an interesting menu flow effect.
 ```
 #!html
 
-<script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script defer type="text/javascript" src="js/hover-effect.js"></script>
 ```
 
