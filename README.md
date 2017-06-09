@@ -37,7 +37,13 @@ This README describes a component that creates an interesting menu flow effect
 
 5. Fire plugin using jQuery selector
     This is basic - uses default settings:
-    $(selector).gordHoverEffect();
+    
+```
+#!javascript
+
+$(selector).gordHoverEffect();
+```
+
 
 You can set the following custom settings:
 1) names of menu items
