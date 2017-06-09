@@ -7,7 +7,7 @@ This README describes a component that creates an interesting menu flow effect
  The component in the container it creates creates menu items, 
  and by means of pseudo-classes organizes the effect of the flow 
  of one element to another during the actions of the user
- 1
+<br>
  [Learn Markdown](http://gordievskiy.com/lab/hover_effect)
 
 ### How to use? ###
