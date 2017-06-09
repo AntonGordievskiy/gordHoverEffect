@@ -12,15 +12,13 @@ This README describes a component that creates an interesting menu flow effect
 
 ### How to use? ###
 
-## First, make sure you are using valid DOCTYPE ##
-    and the jQuery library
+1.First, make sure you are using valid DOCTYPE and the jQuery library
 
 2. Include necessary JS files (hover-effect.js and the jQuery library)
     <script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script defer type="text/javascript" src="js/hover-effect.js"></script>
 
-    We should wait for the readiness of the DOM tree, so we recommend using
-    the 'defer' attribute for the <script> tag
+    We should wait for the readiness of the DOM tree, so we recommend using the 'defer' attribute for the <script> tag
 
 3. Add CSS file
     <link href="css/hover-effect-styles.css" rel="stylesheet">
