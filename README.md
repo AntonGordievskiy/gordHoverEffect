@@ -14,22 +14,40 @@ This README describes a component that creates an interesting menu flow effect
 
 1.First, make sure you are using valid DOCTYPE and the jQuery library
 
-2. Include necessary JS files (hover-effect.js and the jQuery library)
-    <script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+2. Include necessary component.js file and the jQuery library
+    
+```
+#!html
+
+<script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script defer type="text/javascript" src="js/hover-effect.js"></script>
+```
+
 
     We should wait for the readiness of the DOM tree, so we recommend using the 'defer' attribute for the <script> tag
 
 3. Add CSS file
-    <link href="css/hover-effect-styles.css" rel="stylesheet">
+    
+```
+#!html
+
+<link href="css/hover-effect-styles.css" rel="stylesheet">
+```
+
 
     Read carefully the css file, some settings of the component depend on it:
     1) the speed of the effect playback
     2) background-color of the effect
 
 4. Create a element (<ul>) like this:
-    <ul class="horizontal-hover-effect"></ul> or this one:
+    
+```
+#!html
+
+<ul class="horizontal-hover-effect"></ul> or this one:
     <ul class="vertical-hover-effect"></ul>
+```
+
 
     You can use any class, the main thing is to transfer
     the component to the container, in which it will place the necessary
