@@ -66,6 +66,10 @@ Optional settings:
 2) set the handler for the click event
     Default: null
 
+
+```
+#!javascript
+
 $(selector).gordHoverEffect({
     directions: 'horizontal',
     itemsName : [
@@ -80,6 +84,8 @@ $(selector).gordHoverEffect({
     itemClass : null,
     onClick   : null
 });
+```
+
 
 You can initialize instances of the effect one at a time,
 or you can specify settings for multiple instances at once,
