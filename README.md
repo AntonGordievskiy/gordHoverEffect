@@ -19,9 +19,10 @@ This README describes a component that creates an interesting menu flow effect.
 ```
 #!html
 
-    <script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script defer type="text/javascript" src="js/hover-effect.js"></script>
+<script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script defer type="text/javascript" src="js/hover-effect.js"></script>
 ```
+
 
 *We should wait for the readiness of the DOM tree, so we recommend using the 'defer' attribute for the <script> tag.*
 
@@ -30,7 +31,7 @@ This README describes a component that creates an interesting menu flow effect.
 ```
 #!html
 
-    <link href="css/hover-effect-styles.css" rel="stylesheet">
+<link href="css/hover-effect-styles.css" rel="stylesheet">
 ```
 *Read carefully the css file, some settings of the component depend on it:*
 
@@ -43,8 +44,8 @@ This README describes a component that creates an interesting menu flow effect.
 ```
 #!html
 
-    <ul class="horizontal-hover-effect"></ul> or this one:
-    <ul class="vertical-hover-effect"></ul>
+<ul class="horizontal-hover-effect"></ul> or this one:
+<ul class="vertical-hover-effect"></ul>
 ```
 
 *You can use any class, the main thing is to transfer the component to the container, in which it will place the necessary elements and perform the necessary actions.*
@@ -56,7 +57,7 @@ This is basic - uses default settings:
 ```
 #!javascript
 
-    $(selector).gordHoverEffect();
+$(selector).gordHoverEffect();
 ```
 
 **You can set the following custom settings:**
