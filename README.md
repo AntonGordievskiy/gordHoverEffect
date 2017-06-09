@@ -12,7 +12,7 @@ This README describes a component that creates an interesting menu flow effect
 
 ### How to use? ###
 
- 1. First, make sure you are using valid DOCTYPE
+## First, make sure you are using valid DOCTYPE ##
     and the jQuery library
 
 2. Include necessary JS files (hover-effect.js and the jQuery library)
