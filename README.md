@@ -46,13 +46,13 @@ $(selector).gordHoverEffect();
 
 
 You can set the following custom settings:
-1) names of menu items
+1. names of menu items
     Default: 'item 1', 'item 2' and so on
 
-2) links that should open when you click on menu items
+2. links that should open when you click on menu items
     Default: 'javascript:;'
 
-3) direction of the effect: vertical or horizontal
+3. direction of the effect: vertical or horizontal
     Default: 'horizontal'
 
     If your component should work vertically, do not forget to
@@ -60,10 +60,10 @@ You can set the following custom settings:
     directions: 'vertical'
 
 Optional settings:
-1) set the class for the elements created by the component
+1. set the class for the elements created by the component
     Dafault: null
 
-2) set the handler for the click event
+2. set the handler for the click event
     Default: null
 
 
@@ -95,6 +95,10 @@ using different initial options 'directions'
 
 Example of setting a full configuration:
 
+
+```
+#!javascript
+
 $('.vertical-hover-effect').gordHoverEffect({
     directions: 'vertical',
     itemsName : [
@@ -121,6 +125,8 @@ $('.vertical-hover-effect').gordHoverEffect({
 function handler (event) {
     console.log( $( event.target ) );
 };
+```
+
 
 ### Who do I talk to? ###
 
