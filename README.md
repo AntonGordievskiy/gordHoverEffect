@@ -86,15 +86,13 @@ $(selector).gordHoverEffect({
 });
 ```
 
-
 You can initialize instances of the effect one at a time,
 or you can specify settings for multiple instances at once,
 if they are the same.
 Vertical and horizontal effects are set separately
-using different initial options 'directions'
+using different initial options 'directions'.
 
 Example of setting a full configuration:
-
 
 ```
 #!javascript
@@ -127,7 +125,6 @@ function handler (event) {
 };
 ```
 
-
 ### Who do I talk to? ###
 
- I'm a repo owner
+ I'm a repo owner.
