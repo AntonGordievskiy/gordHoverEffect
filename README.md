@@ -10,7 +10,7 @@ This README describes a component that creates an interesting menu flow effect.
 
  [Learn Markdown](http://gordievskiy.com/lab/hover_effect)
 
-### How to use? ###
+# How to use? #
 
 **First, make sure you are using valid DOCTYPE and the jQuery library.**
 
@@ -19,8 +19,8 @@ This README describes a component that creates an interesting menu flow effect.
 ```
 #!html
 
-<script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script defer type="text/javascript" src="js/hover-effect.js"></script>
+    <script defer type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script defer type="text/javascript" src="js/hover-effect.js"></script>
 ```
 
 *We should wait for the readiness of the DOM tree, so we recommend using the 'defer' attribute for the <script> tag.*
@@ -30,21 +30,21 @@ This README describes a component that creates an interesting menu flow effect.
 ```
 #!html
 
-<link href="css/hover-effect-styles.css" rel="stylesheet">
+    <link href="css/hover-effect-styles.css" rel="stylesheet">
 ```
 *Read carefully the css file, some settings of the component depend on it:*
 
-1) the speed of the effect playback
+* the speed of the effect playback
 
-2) background-color of the effect
+* background-color of the effect
 
 **Create a element <ul> like this:**
     
 ```
 #!html
 
-<ul class="horizontal-hover-effect"></ul> or this one:
-<ul class="vertical-hover-effect"></ul>
+    <ul class="horizontal-hover-effect"></ul> or this one:
+    <ul class="vertical-hover-effect"></ul>
 ```
 
 *You can use any class, the main thing is to transfer the component to the container, in which it will place the necessary elements and perform the necessary actions.*
@@ -79,7 +79,7 @@ This is basic - uses default settings:
 
     *Default: 'horizontal'*
 
-    If your component should work vertically, do not forget to add the parameter: 
+    *If your component should work vertically, do not forget to add the parameter:* 
 
 
 ```
