@@ -34,7 +34,7 @@ The component in the container it creates creates menu items, and by means of ps
 ```
 #!html
 
-<ul class="horizontal-hover-effect"></ul> or this one:
+<ul class="horizontal-hover-effect"></ul>
 <ul class="vertical-hover-effect"></ul>
 ```
 
@@ -51,18 +51,12 @@ $('.horizontal-hover-effect').gordHoverEffect({
     itemsNames: [
         'item 1',
         'item 2',
-        'item 3',
-        'item 4',
-        'item 5',
-        'item 6'
+        'item 3'
     ],
     itemsLinks: [
         '/item-1',
         '/item-2',
-        '/item-3',
-        '/item-4',
-        '/item-5',
-        '/item-6'
+        '/item-3'
     ]
 });
 ```
@@ -99,7 +93,7 @@ $('.horizontal-hover-effect').gordHoverEffect({
 
 * set the class for the elements created by the component
     
-    *Dafault: null*
+    *Default: null*
 
 * set the handler for the click event
     
@@ -121,12 +115,12 @@ $('.vertical-hover-effect').gordHoverEffect({
         'Sports'
     ],
     itemsLinks: [
-        '/item-1',
-        '/item-2',
-        '/item-3',
-        '/item-4',
-        '/item-5',
-        '/item-6'
+        '/clothing',
+        '/electronics',
+        '/shoes',
+        '/watches',
+        '/jewellery',
+        '/sports'
     ],
     itemsClass: "list-items",
     onClick   : handler
