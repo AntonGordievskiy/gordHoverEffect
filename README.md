@@ -2,7 +2,7 @@
 
 The component in the container it creates creates menu items, and by means of pseudo-classes organizes the effect of the flow of one element to another during the actions of the user.
 
-[Demo](http://gordievskiy.com/lab/hover_effect)
+[Demo](http://gordievskiy.com/lab/gordHoverEffect)
 
 # How to use? #
 
