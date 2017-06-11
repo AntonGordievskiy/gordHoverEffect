@@ -91,7 +91,7 @@ $('.horizontal-hover-effect').gordHoverEffect({
 ```
 #!javascript
 
-    directions: 'vertical'
+    direction: 'vertical'
 ```
 
 **Optional settings:**
@@ -111,7 +111,7 @@ $('.horizontal-hover-effect').gordHoverEffect({
 #!javascript
 
 $('.vertical-hover-effect').gordHoverEffect({
-    directions: 'vertical',
+    direction : 'vertical',
     itemsNames: [
         'Clothing',
         'Electronics',
