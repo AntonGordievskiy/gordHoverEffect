@@ -149,7 +149,3 @@ function handler (event) {
     console.log( $( event.target ) );
 };
 ```
-
-### Who do I talk to? ###
-
- I'm a repo owner.
