@@ -63,8 +63,7 @@ $('.horizontal-hover-effect').gordHoverEffect({
         '/item-4',
         '/item-5',
         '/item-6'
-    ],
-    onClick: handler
+    ]
 });
 ```
 
