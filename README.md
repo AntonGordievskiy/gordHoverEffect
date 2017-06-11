@@ -13,7 +13,7 @@ The component in the container it creates creates menu items, and by means of ps
 ```
 #!html
 
-<script defer type="text/javascript" src="js/gordHoverEffect.js"></script>
+<script type="text/javascript" src="js/gordHoverEffect.js"></script>
 ```
 
 **Add CSS file:**
