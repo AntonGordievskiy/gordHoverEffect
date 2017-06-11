@@ -13,18 +13,15 @@ The component in the container it creates creates menu items, and by means of ps
 ```
 #!html
 
-<script defer type="text/javascript" src="js/hover-effect.js"></script>
+<script defer type="text/javascript" src="js/gordHoverEffect.js"></script>
 ```
-
-
-*We should wait for the readiness of the DOM tree, so we recommend using the 'defer' attribute for the <script> tag.*
 
 **Add CSS file:**
     
 ```
 #!html
 
-<link href="css/hover-effect-styles.css" rel="stylesheet">
+<link href="css/gordHoverEffect.css" rel="stylesheet">
 ```
 *Read carefully the css file, some settings of the component depend on it:*
 
@@ -50,14 +47,30 @@ This is basic - uses default settings:
 ```
 #!javascript
 
-$(selector).gordHoverEffect();
+$('.horizontal-hover-effect').gordHoverEffect({
+    itemsNames: [
+        'item 1',
+        'item 2',
+        'item 3',
+        'item 4',
+        'item 5',
+        'item 6'
+    ],
+    itemsLinks: [
+        '/item-1',
+        '/item-2',
+        '/item-3',
+        '/item-4',
+        '/item-5',
+        '/item-6'
+    ],
+    onClick: handler
+});
 ```
 
 **You can set the following custom settings:**
 
 * Names of menu items
-
-    *Default: 'item 1', 'item 2' and so on*
 
 * Links that should open when you click on menu items
 
@@ -65,7 +78,7 @@ $(selector).gordHoverEffect();
 ```
 #!html
 
-    <a href='javascript:;'></a>
+    <a href='/item-1'></a>
 ```
 
 
@@ -98,33 +111,9 @@ $(selector).gordHoverEffect();
 ```
 #!javascript
 
-$(selector).gordHoverEffect({
-    directions: 'horizontal',
-    itemsName : [
-        'item 1',
-        'item 2'
-    ],
-    links     : [
-      'javascript:;',
-      'javascript:;'
-    ],
-    // Optional settings:
-    itemClass : null,
-    onClick   : null
-});
-```
-
-*You can initialize instances of the effect one at a time, or you can specify settings for multiple instances at once, if they are the same.
-Vertical and horizontal effects are set separately using different initial options 'directions'.*
-
-**Example of setting a full configuration:**
-
-```
-#!javascript
-
 $('.vertical-hover-effect').gordHoverEffect({
     directions: 'vertical',
-    itemsName : [
+    itemsNames: [
         'Clothing',
         'Electronics',
         'Shoes',
@@ -132,20 +121,24 @@ $('.vertical-hover-effect').gordHoverEffect({
         'Jewellery',
         'Sports'
     ],
-    links     : [
-      '/clothing',
-      '/electronics',
-      '/shoes',
-      '/watches',
-      '/jewellery',
-      '/sports',
+    itemsLinks: [
+        '/item-1',
+        '/item-2',
+        '/item-3',
+        '/item-4',
+        '/item-5',
+        '/item-6'
     ],
-    // Optional settings:
-    itemClass : 'myClass',
+    itemsClass: "list-items",
     onClick   : handler
 });
 
-function handler (event) {
+function handler ( event ) {
     console.log( $( event.target ) );
+    return false;
 };
+
 ```
+
+*You can initialize instances of the effect one at a time, or you can specify settings for multiple instances at once, if they are the same.
+Vertical and horizontal effects are set separately using different initial options 'directions'.*
