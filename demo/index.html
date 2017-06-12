@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>Hover Effect</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/gordHoverEffect.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <ul class="horizontal-hover-effect"></ul>
+        <ul class="vertical-hover-effect"></ul>
+
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/gordHoverEffect.js"></script>
+        <script type="text/javascript">
+            $('.horizontal-hover-effect').gordHoverEffect({
+                itemsNames: [
+                    'Clothing',
+                    'Electronics',
+                    'Shoes',
+                    'Watches',
+                    'Jewellery',
+                    'Sports'
+                ],
+                itemsLinks: [
+                    '/clothing',
+                    '/electronics',
+                    '/shoes',
+                    '/watches',
+                    '/jewellery',
+                    '/sports'
+                ],
+                onClick: handler
+            });
+
+            function handler ( event ) {
+                console.log( $( event.target ) );
+                return false;
+            };
+
+            $('.vertical-hover-effect').gordHoverEffect({
+                direction : 'vertical',
+                itemsNames: [
+                    'Clothing',
+                    'Electronics',
+                    'Shoes',
+                    'Watches',
+                    'Jewellery',
+                    'Sports'
+                ],
+                itemsLinks: [
+                    '/item-1',
+                    '/item-2',
+                    '/item-3',
+                    '/item-4',
+                    '/item-5',
+                    '/item-6'
+                ],
+                itemsClass: "list-items",
+                onClick   : handler
+            });
+        </script>
+	</body>
+</html>

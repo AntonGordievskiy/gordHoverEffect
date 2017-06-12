@@ -1,0 +1,132 @@
+/* START :: COMMON STYLES FOR EFFECT */
+
+a {
+    display           : -webkit-box;
+    display           : -ms-flexbox;
+    display           : flex;
+}
+
+/* END :: COMMON STYLES FOR EFFECT */
+
+/* START :: HORIZONTAL HOVER EFFECT STYLES */
+
+.horizontal-hover-effect {
+    display          : -webkit-box;
+    display          : -ms-flexbox;
+    display          : flex;
+
+    -ms-flex-wrap    : nowrap;
+    flex-wrap        : nowrap;
+}
+
+.horizontal-hover-effect a {
+    position: relative;
+}
+
+.horizontal-hover-effect li {
+    /* To display text over the effect use position: relative */
+    position      : relative;
+    pointer-events: none;
+}
+
+.horizontal-hover-effect a::before {
+    position          : absolute;
+    top               : 0;
+
+    width             : 0;
+    height            : 100%;
+
+    content           : '';
+    /* You can set the playback speed of the effect using
+       the following styles */
+    -webkit-transition: .15s;
+    transition        : .15s;
+
+    /* Set the background-color of the effect */
+    background        : rgba(247, 209, 17, 1);
+}
+
+.horizontal-hover-effect .to-left::before {
+    right: 0;
+    width: 100%;
+}
+
+.horizontal-hover-effect .to-left-full::before {
+    left : 0;
+    width: 0;
+}
+
+.horizontal-hover-effect .to-right::before {
+    left : 0;
+    width: 100%;
+}
+
+.horizontal-hover-effect .to-right-full::before {
+    right: 0;
+    width: 0;
+}
+
+.horizontal-hover-effect .to-close::before {
+    top   : 0;
+    right : 0;
+    bottom: auto;
+    left  : auto;
+
+    width : 0;
+}
+
+/* END :: HORIZONTAL HOVER EFFECT STYLES */
+
+/* START :: VERTICALLY HOVER EFFECT STYLES */
+
+.vertical-hover-effect a {
+    /* To display text over the effect, is used position: relative; */
+    position    : relative;
+}
+
+.vertical-hover-effect a::before {
+    position          : absolute;
+    top               : 0;
+    left              : 0;
+
+    width             : 100%;
+    height            : 0;
+
+    content           : '';
+    /* You can set the playback speed of the effect using
+       the following styles */
+    -webkit-transition: .15s;
+    transition        : .15s;
+
+    /* Set the background-color of the effect */
+    background        : rgba(100, 100, 100, .35);
+}
+
+.vertical-hover-effect li {
+    position: relative;
+    pointer-events: none;
+}
+
+.vertical-hover-effect  .to-bottom::before {
+    height: 100%;
+}
+
+.vertical-hover-effect  .to-bottom-full::before {
+    top   : auto;
+    bottom: 0;
+    height: 0;
+}
+
+.vertical-hover-effect  .to-top::before {
+    top   : auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.vertical-hover-effect  .to-top-full::before {
+    top   : 0;
+    bottom: auto;
+    height: 0;
+}
+
+/* END :: VERTICALLY HOVER EFFECT STYLES */
