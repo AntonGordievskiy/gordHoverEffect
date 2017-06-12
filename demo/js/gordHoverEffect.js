@@ -2,7 +2,7 @@
  * @author   Antonio Gordievskiy
  * @module   jQuery module
  * @name     gordHoverEffect
- * @tutorial link
+ * @link     https://bitbucket.org/AntonGordievsky/gordhovereffect
  * @throws   If the containers for component is not specified,
  *           an exception is {"Container is not defined"}
  * @throws   If the itemsNames parameter is not specified,
