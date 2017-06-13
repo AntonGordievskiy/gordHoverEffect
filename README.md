@@ -40,7 +40,7 @@ The component in the container it creates creates menu items, and by means of ps
 
 *You can use any class name, the main thing is to transfer the component to the container, in which it will place the necessary DOM and perform the necessary actions.*
 
-**Fire plugin using jQuery selector.**
+**Fire plugin using jQuery selector**
 
 This is a basic use case (mostly default settings):
     
@@ -63,30 +63,21 @@ $('.horizontal-hover-effect').gordHoverEffect({
 
 **You can set the following custom settings:**
 
-* Names of menu items
+* **itemsNames**
+Type: Array
+Names of menu items
 
-* Links that should open when you click on menu items
+* **itemsLinks**
+Type: Array
+Links that should open when you click on menu items
 
-
-```
-#!html
-
-    <a href='/item-1'></a>
-```
-
-
-* Direction of the effect: vertical or horizontal
+* **direction**
+Type: Array
+Direction of the effect: vertical or horizontal
 
     *Default: 'horizontal'*
 
-    *If your component should work vertically, don't forget to add this parameter:* 
-
-
-```
-#!javascript
-
-    direction: 'vertical'
-```
+    *If your component should work vertically, don't forget to set this parameter* 
 
 **Optional settings:**
 
