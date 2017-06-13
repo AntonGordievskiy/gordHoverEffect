@@ -65,9 +65,9 @@ $('.horizontal-hover-effect').gordHoverEffect({
 
 * **itemsNames**
 
-Type: Array
+    Type: Array
 
-Names of menu items.
+    Names of menu items.
 
 * **itemsLinks**
 
@@ -79,9 +79,9 @@ Names of menu items.
 
     Type: String
 
-    Direction of the effect: vertical or horizontal. If your component should work vertically, don't forget to set this parameter.
-
     *Default: 'horizontal'*
+
+    Direction of the effect: vertical or horizontal. If your component should work vertically, don't forget to set this parameter.
 
 **Optional settings:**
 
@@ -89,18 +89,17 @@ Names of menu items.
 
     Type: String
 
-    Set a class for elements created by the component.
-
     *Default: null*
+
+    Set a class for elements created by the component.
 
 * **onClick**
 
     Type: Function
 
-    Set a handler for a click event.
-    
     *Default: null*
 
+    Set a handler for a click event.
 
 **Example:**
 ```
