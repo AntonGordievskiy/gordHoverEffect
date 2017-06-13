@@ -42,7 +42,7 @@ The component in the container it creates creates menu items, and by means of ps
 
 **Fire plugin using jQuery selector.**
 
-This is basic - uses default settings:
+This is a basic use case (mostly default settings):
     
 ```
 #!javascript
