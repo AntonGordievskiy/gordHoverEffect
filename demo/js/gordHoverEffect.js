@@ -19,8 +19,7 @@
             direction : 'horizontal',
             itemsNames: [],
             itemsLinks: [],
-            /* Optional: */
-            itemsClass : null,
+            itemsClass: null,
             onClick   : null
         }, options );
 

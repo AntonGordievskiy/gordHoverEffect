@@ -1,14 +1,8 @@
-/* START :: COMMON STYLES FOR EFFECT */
-
 a {
     display           : -webkit-box;
     display           : -ms-flexbox;
     display           : flex;
 }
-
-/* END :: COMMON STYLES FOR EFFECT */
-
-/* START :: HORIZONTAL HOVER EFFECT STYLES */
 
 .horizontal-hover-effect {
     display          : -webkit-box;
@@ -37,12 +31,11 @@ a {
     height            : 100%;
 
     content           : '';
-    /* You can set the playback speed of the effect using
-       the following styles */
+    /* Duration of effect */
     -webkit-transition: .15s;
     transition        : .15s;
 
-    /* Set the background-color of the effect */
+    /* Background-color of the effect */
     background        : rgba(247, 209, 17, 1);
 }
 
@@ -75,9 +68,7 @@ a {
     width : 0;
 }
 
-/* END :: HORIZONTAL HOVER EFFECT STYLES */
 
-/* START :: VERTICALLY HOVER EFFECT STYLES */
 
 .vertical-hover-effect a {
     /* To display text over the effect, is used position: relative; */
@@ -93,12 +84,11 @@ a {
     height            : 0;
 
     content           : '';
-    /* You can set the playback speed of the effect using
-       the following styles */
+    /* Duration of effect */
     -webkit-transition: .15s;
     transition        : .15s;
 
-    /* Set the background-color of the effect */
+    /* Background-color of the effect */
     background        : rgba(100, 100, 100, .35);
 }
 
@@ -128,5 +118,3 @@ a {
     bottom: auto;
     height: 0;
 }
-
-/* END :: VERTICALLY HOVER EFFECT STYLES */
