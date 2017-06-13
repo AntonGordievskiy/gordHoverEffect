@@ -8,7 +8,7 @@ The component in the container it creates creates menu items, and by means of ps
 
 **First, make sure you are using valid DOCTYPE and the jQuery library.**
 
-**Include necessary js files:**
+**Include necessary JS files:**
     
 ```
 #!html
@@ -23,13 +23,13 @@ The component in the container it creates creates menu items, and by means of ps
 
 <link href="css/gordHoverEffect.css" rel="stylesheet">
 ```
-*Read carefully the css file, some settings of the component depend on it:*
+*Read carefully the CSS file, some settings of the component depend on it:*
 
 * the speed of the effect playback
 
 * background-color of the effect
 
-**Create a element <ul> like this:**
+**Prepare an <ul> container tag like this:**
     
 ```
 #!html
@@ -38,7 +38,7 @@ The component in the container it creates creates menu items, and by means of ps
 <ul class="vertical-hover-effect"></ul>
 ```
 
-*You can use any class, the main thing is to transfer the component to the container, in which it will place the necessary elements and perform the necessary actions.*
+*You can use any class name, the main thing is to transfer the component to the container, in which it will place the necessary DOM and perform the necessary actions.*
 
 **Fire plugin using jQuery selector.**
 
@@ -79,7 +79,7 @@ $('.horizontal-hover-effect').gordHoverEffect({
 
     *Default: 'horizontal'*
 
-    *If your component should work vertically, do not forget to add the parameter:* 
+    *If your component should work vertically, don't forget to add this parameter:* 
 
 
 ```
@@ -91,11 +91,11 @@ $('.horizontal-hover-effect').gordHoverEffect({
 **Optional settings:**
 
 
-* set the class for the elements created by the component
+* set a class for elements created by the component
     
     *Default: null*
 
-* set the handler for the click event
+* set a handler for a click event
     
     *Default: null*
 
@@ -134,4 +134,4 @@ function handler ( event ) {
 ```
 
 *You can initialize instances of the effect one at a time, or you can specify settings for multiple instances at once, if they are the same.
-Vertical and horizontal effects are set separately using different initial options 'directions'.*
+Vertical and horizontal effects are set separately using different initial 'direction' options.*
