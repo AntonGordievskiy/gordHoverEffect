@@ -64,20 +64,18 @@ $('.horizontal-hover-effect').gordHoverEffect({
 **You can set the following custom settings:**
 
 * **itemsNames**
-Type: Array
-Names of menu items
+    Type: Array
+    Names of menu items
 
 * **itemsLinks**
-Type: Array
-Links that should open when you click on menu items
+    Type: Array
+    Links that should open when you click on menu items
 
 * **direction**
-Type: Array
-Direction of the effect: vertical or horizontal
+    Type: Array
+    Direction of the effect: vertical or horizontal. If your component should work vertically, don't forget to set this parameter.
 
     *Default: 'horizontal'*
-
-    *If your component should work vertically, don't forget to set this parameter* 
 
 **Optional settings:**
 
