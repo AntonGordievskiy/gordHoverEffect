@@ -65,9 +65,9 @@ $('.horizontal-hover-effect').gordHoverEffect({
 
 * **itemsNames**
 
-    Type: Array
+Type: Array
 
-    Names of menu items.
+Names of menu items.
 
 * **itemsLinks**
 
