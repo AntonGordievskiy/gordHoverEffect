@@ -1,6 +1,6 @@
-## What is gordHoverEffect repository for? ##
+## gordHoverEffect ##
 
-The component in the container it creates creates menu items, and by means of pseudo-classes organizes the effect of the flow of one element to another during the actions of the user.
+This component creates menu items in the specified container, and by means of pseudo-classes organizes the effect of flow from one items to another while user moves a mouse pointer over your menu.
 
 [Demo](http://gordievskiy.com/lab/gordHoverEffect)
 
