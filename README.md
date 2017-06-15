@@ -2,7 +2,7 @@
 
 This component creates menu items in the specified container, and by means of pseudo-classes organizes the effect of flow from one items to another while user moves a mouse pointer over your menu.
 
-[Demo](http://gordievskiy.com/lab/gordHoverEffect)
+[Demo](https://gordievskiy.com/lab/gordHoverEffect)
 
 ## How to use? ##
 
