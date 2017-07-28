@@ -25,7 +25,7 @@ This component creates menu items in the specified container, and by means of ps
 
 * background-color of the effect
 
-**Prepare an <ul> container tag like this:**
+**Prepare an container tag like this:**
     
 ```
 <ul class="horizontal-hover-effect"></ul>
