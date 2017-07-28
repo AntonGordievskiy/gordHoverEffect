@@ -11,16 +11,12 @@ This component creates menu items in the specified container, and by means of ps
 **Include necessary JS files:**
     
 ```
-#!html
-
 <script type="text/javascript" src="js/gordHoverEffect.js"></script>
 ```
 
 **Add CSS file:**
     
 ```
-#!html
-
 <link href="css/gordHoverEffect.css" rel="stylesheet">
 ```
 *Read carefully the CSS file, some settings of the component depend on it:*
@@ -32,8 +28,6 @@ This component creates menu items in the specified container, and by means of ps
 **Prepare an <ul> container tag like this:**
     
 ```
-#!html
-
 <ul class="horizontal-hover-effect"></ul>
 <ul class="vertical-hover-effect"></ul>
 ```
@@ -45,8 +39,6 @@ This component creates menu items in the specified container, and by means of ps
 This is a basic use case (mostly default settings):
     
 ```
-#!javascript
-
 $('.horizontal-hover-effect').gordHoverEffect({
     itemsNames: [
         'item 1',
@@ -103,8 +95,6 @@ $('.horizontal-hover-effect').gordHoverEffect({
 
 **Example:**
 ```
-#!javascript
-
 $('.vertical-hover-effect').gordHoverEffect({
     direction : 'vertical',
     itemsNames: [
